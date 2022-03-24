@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', serif;
+}
+.clr {
+    clear: both;
+}
+#home {
+    height: 800px;
+    background-image: url(images/drew-coffman-1872.jpg) ;
+    background-size: 100% 100%;
+}
+
+#home .navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 60px;
+}
+
+#home .navbar .logo {
+    float: left;
+    margin-left: 100px;
+}
+#home .navbar .logo img {
+    width: 180px;
+    padding-top: 10px;
+}
+#home .navbar .links {
+    float: right;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+#home .navbar .links ul {
+    list-style-type: none;
+}
+
+#home .navbar .links ul li {
+    float: left;
+    padding: 20px 30px;
+}
+#home .navbar .links ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+.home-content {
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+}
+.home-content p {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+.home-content h1 {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+#home .home-content button {
+    padding: 20px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.learn-btn {
+    background-color: #9A7E4A;
+    color: white;
+    border: none;
+    
+}
+.contact-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid White;
+    margin: 5px;
+}
+
+#home .scroll {
+    text-align: center;
+    margin-top: 120px;   
+}
+
+#home .scroll button {
+    background-color: transparent;
+    border: 2px  solid white;
+    height: 50px;
+    width: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}
+#home .scroll button a {
+    color: white;
+    text-decoration: none;
+}
+#about {
+    margin: 100px 0 ;
+}
+
+#about .about-image {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#about .about-image img {
+    width: 75%;
+    padding-left: 50px;
+}
+#about .about-caption {
+    width: 50%;
+    float: right;
+    color: #8E7754;
+    padding-top: 50px;
+   
+}
+#about .about-caption h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #303030;
+}
+
+#about .about-caption p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #303030;
+    padding-right: 150px;
+}
+
+#about .about-caption span {
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 25px;
+    border: 0.01px solid #8E7754;
+    border-radius: 50%;
+    text-align: center;
+    width: 44px;
+    height: 40px;
+    color: #8E7754;
+    margin-right: 20px;
+    padding-top: 7px;
+}
+#location {
+    margin: 50px 0 ;
+    background-color: #F8F8F8;
+    padding: 100px 0;
+}
+#location .location-caption {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+   
+}
+#location .location-caption h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-left: 100px;
+    color: #303030;
+}
+
+#location .location-caption p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #303030;
+    padding-left: 100px;
+    padding-right: 20px;
+    line-height: 2;
+}
+#location .location-image {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+#location .location-image img {
+    width: 75%;
+    padding-right: 100px;
+}
+
+#baking {
+    margin: 50px 0 ;
+    padding: 50px 0;
+}
+#baking h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #303030;
+}
+#baking p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: #888;
+    padding-left: 100px;
+    padding-right: 20px;
+    line-height: 2;
+}
+#baking .products {
+    padding: 100px 100px;
+    
+}
+#baking .product {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+}
+#baking .product img {
+    width: 80%;
+    text-align: center;
+}
+#baking .product h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #303030;
+    padding: 10px 30px;
+}
+#baking .product p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    padding: 0px 30px;
+}
+
+#contact {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+#contact .contact-caption {
+    width: 50%;
+    float: left;
+    color: #8E7754;
+    padding: 50px 0;
+   
+}
+#contact .contact-caption h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 150px;
+    color: #303030;
+}
+
+#contact .contact-caption p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-top: 25px;
+    color: #303030;
+    padding-right: 50px;
+}
+
+#contact .contact-caption span {
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 25px;
+    border: 0.01px solid #8E7754;
+    border-radius: 50%;
+    text-align: center;
+    width: 44px;
+    height: 40px;
+    color: white;
+    margin-right: 20px;
+    padding-top: 7px;
+   background-color: #8E7754;
+}
+
+#contact .contact-map {
+    width: 50%;
+    float: right;
+    padding: 50px 0;
+}
+
+
+#footer .footer-info {
+    background-color: #403D38;
+    padding: 50px 150px;
+}
+#footer .footer-info h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+#footer .footer-info hr {
+    width: 90%;
+    opacity: .25;
+}
+#footer .footer-info p {
+    color: #969696;
+    line-height: 2;
+    font-size: 16px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+#footer .footer-info .footer-about {
+    float: left;
+    width: 25%;
+}
+#footer .footer-info .footer-special {
+    float: left;
+    width: 25%;
+}
+#footer .footer-info .footer-hours {
+    float: left;
+    width: 25%;
+}
+#footer .footer-info .footer-contact {
+    float: left;
+    width: 25%;
+    background-image: url(images/contact-details-map-lighter.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+}
+#footer .footer-info .footer-contact span {
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 18x;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #969696;
+    margin-right: 5px;
+   background-color: transparent;
+}
+.fa {
+    padding: 10px;
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius:50%;
+    background-color: #484540;
+    color: #8c8a86;
+    
+  }
+
+#footer .footer-logo {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#footer .footer-logo p {
+    color:#777 ;
+    padding: 30px 0;
+}
